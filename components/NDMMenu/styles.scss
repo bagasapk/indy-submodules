@@ -1,0 +1,12 @@
+.ndm-menu {
+  &.ant-menu-light.ant-menu-horizontal {
+    & > .ant-menu-item,
+    & > .ant-menu-submenu {
+      @apply py-[4px] font-normal;
+    }
+
+    & > .ant-menu-item-selected {
+      @apply font-medium;
+    }
+  }
+}
